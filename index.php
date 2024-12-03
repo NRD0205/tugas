@@ -163,7 +163,7 @@ $db_laundri = mysqli_query($conn, "SELECT * FROM tb_laundri");
             <tr>
                 <td> <?= $i; ?></td>
                 <td>
-                    <a href="update.php?id=<?= $row["id"]; ?>">UPDATE</a>
+                    <a href="update.php?id=<?= $row["id"]; ?>">UPDAT</a>
                     <a href="hapus.php?id=<?= $row["id"]; ?>">hapus</a>
         
                 </td>
