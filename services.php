@@ -52,19 +52,20 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav> 
                                 <ul id="navigation">                                                                                          
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="active"><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="indexn.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li  class="active"><a href="services.php">Services</a></li>
                                     
+                                        
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="index.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                 </div> 
                 <div class="header-right d-none d-lg-block">
-                    <a href="contact.html" class="header-btn1"><img src="assets/img/icon/call.png" alt=""> 0822 8888 1150</a>
+                    <a href="#" class="header-btn1"><img src="assets/img/icon/call.png" alt="">0822 8888 1150</a>
                     <a href="#" class="header-btn2">Make an Appointment</a>
                 </div>
                 <!-- Mobile Menu -->
@@ -83,7 +84,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2">
-                                <h2>About us</h2>
+                                <h2>Our Services</h2>
                             </div>
                         </div>
                     </div>
@@ -91,34 +92,6 @@
             </div>
         </div>
         <!-- Hero End -->
-        <!--? About Area  -->
-        <section class="about-area2 pb-bottom mt-30">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <!-- about-img -->
-                        <div class="about-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-25">
-                                <h2>About Us</h2>
-                            </div>
-                            <p class="mb-20">
-                                Laundry Gacor adalah solusi cerdas untuk kebutuhan laundry Anda. Kami hadir dengan misi memberikan layanan laundry yang berkualitas, cepat, dan mudah.
-                            </p>
-                            <p class="mb-30">Dengan tim yang berpengalaman dan peralatan modern, kami memastikan pakaian Anda selalu bersih, wangi, dan siap pakai. Kami percaya bahwa pakaian bersih adalah cerminan diri Anda. Oleh karena itu, kami berkomitmen untuk memberikan yang terbaik untuk Anda.</p>
-
-                            <a href="about.html" class="btn">About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Area End -->
         <!--? Services Area Start -->
         <section class="services-area pt-top border-bottom pb-20 mb-60">
             <div class="container">
@@ -351,7 +324,9 @@
                     </div>
                 </div>
             </div>
-        </section>  <!-- Company achievement End -->
+        </section>
+        <!-- Testimonials_end -->
+
         <!--?  Map Area start  -->
         <div class="Map-area">
             <img src="assets/img/gallery/Map.png" alt="" class="w-100">

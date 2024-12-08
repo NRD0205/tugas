@@ -61,12 +61,12 @@ $db_laundri = mysqli_query($conn, "SELECT * FROM tb_laundri");
                         <div class="main-menu d-none d-lg-block">
                             <nav> 
                                 <ul id="navigation">                                                                                          
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="indexn.php">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     
                                     </li>
-                                    <li  class="active"><a href="contact.html">Contact</a></li>
+                                    <li  class="active"><a href="index.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -163,13 +163,16 @@ $db_laundri = mysqli_query($conn, "SELECT * FROM tb_laundri");
             <tr>
                 <td> <?= $i; ?></td>
                 <td>
-                    <a href="update.php?id=<?= $row["id"]; ?>">UPDAT</a>
-                    <a href="hapus.php?id=<?= $row["id"]; ?>">hapus</a>
+               <a href="update.php?id=<?= $row["id"]; ?>"type="button" class="btn btn-outline-dark" >UPDATE</a>
+               <a href="hapus.php?id=<?= $row["id"]; ?>"type="button" class="btn btn-outline-dark" >hapus</a>
+                    
+                    
         
                 </td>
                 
 
                 <td ><?= $row["Nama"]; ?></td>
+        
                 <td><?= $row["Email"]; ?></td>
                 <td><?= $row["Pesanan"]; ?></td>
                 <td><?= $row["Kilo"]; ?></td>

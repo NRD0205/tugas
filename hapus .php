@@ -1,6 +1,5 @@
 <?php
 require 'function.php';
-// check apakah tombol submit sudah ditekan atau belum
 
 $id = $_GET["id"];
 
@@ -14,7 +13,7 @@ $id = $_GET["id"];
     } else {
         echo "
         <script>
-        alert(' data Gagagl Di Hapus!');
+        alert(' data Gagal Di Hapus!');
         document.location.href = 'index.php';
         </script>
         ";

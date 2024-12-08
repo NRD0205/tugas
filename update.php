@@ -4,7 +4,7 @@ require 'function.php';
 
 $id = $_GET["id"];
 
-$ubahDB = query ("select * from db_siswa where id = $id")[0];
+$ubahDB = query ("select * from tb_laundri where id = $id")[0];
 if (isset($_POST["submit"] )) {
     if (update ($_POST)> 0) {
         echo "
@@ -68,18 +68,17 @@ if (isset($_POST["submit"] )) {
     <h1>Formulir Pendaftaran</h1>
     <form method="post">
         <input type="hidden" name="id" value ="<?= $ubahDB ["id"]; ?>">
-        <label for="nama">nama:</label>
+        <label for="Nama">Nama:</label>
         <input type="text" id="nama" name="nama" required><br>
 
-        <label for="nisn">nisn:</label>
-        <input type="text" id="nisn" name="nisn" required><br>
+        <label for="Email">Email:</label>
+        <input type="Email" id="Email" name="Email" required><br>
        
-        <label for="email">email:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="jurusan">jurusan:</label>
-        <input type="text" id="jurusan" name="jurusan" required><br><br>
-       <label for="foto">foto</label>
-       <input type="file" id="foto" name ="foto" >
+        <label for="Pesanan">Pesanan:</label>
+        <input type="text" id="text" name="Pesanan" required><br>
+        <label for="Kilo">Kilo:</label>
+        <input type="text" id="text" name="text" required><br><br>
+       
         <br>
         <br>
 

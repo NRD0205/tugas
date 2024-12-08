@@ -52,12 +52,12 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav> 
                                 <ul id="navigation">                                                                                          
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
+                                    <li class="active"><a href="indexn.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="services.php">Services</a></li>
                              
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="index.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
